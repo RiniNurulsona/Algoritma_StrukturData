@@ -18,11 +18,11 @@ public class PerbaikanUTS {
     public static void main(String[] args) {
         Scanner inputan = new Scanner(System.in);
         ArrayList<Mahasiswa> input = new ArrayList<>();
-        input.add(new Mahasiswa("Ardi", "Algoritma", 4, 88));
-        input.add(new Mahasiswa("Ian", "Bahasa Inggris", 2, 75));
-        input.add(new Mahasiswa("Udin", "Kalkulus", 2, 84));
-        input.add(new Mahasiswa("Emi", "Pemrograman", 1, 92));
-        input.add(new Mahasiswa("Ogah", "Statistika", 3, 96));
+        input.add(new Mahasiswa("rini", "Teologi aswaja", 4, 83));
+        input.add(new Mahasiswa("zara", "Bahasa arab", 2, 68));
+        input.add(new Mahasiswa("ami", "Pengantar filsafat", 2, 84));
+        input.add(new Mahasiswa("nelsa", "Pemrograman", 1, 92));
+        input.add(new Mahasiswa("nisa", "Statistika", 3, 96));
 
         System.out.println("1. Menambah Mahasiswa");
         System.out.println("2. Lihat Daftar Mahasiswa");
